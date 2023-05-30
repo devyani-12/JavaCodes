@@ -6,22 +6,18 @@ public class collectionframework1{
         l.add(1);
         l.add(2);
         l.add(3);
-       
 
         l.add(2,15);//adding element at specific index.
-        l.add(4,12);
+
         
         System.out.println(l);
         System.out.println(l.indexOf(3)); //returns the index of the element inserted
        
 
-       System.out.println( l.get(1));//to retreive an element
-            System.out.println( l.get(4));
+       System.out.println( l.get(1)); //to retreive an element
          l.set(1,5);  //to modify element at specific index
           System.out.println(l);
-         
-        l.set(4,19);
-              System.out.println(l);
+
 
           System.out.println(l.contains(10));  //false bcz 10 is not present.
              
@@ -30,8 +26,18 @@ public class collectionframework1{
         l.sort(null); // for sorting the arraylist elements
             System.out.println(l);
 
-            l.ensureCapacity(10); //Increases the capacity of this ArrayList instance, if necessary, to ensure that it can hold at least the number of elements specified by the minimum capacity argument
+           // l.ensureCapacity(5); //Increases the capacity of this ArrayList instance, if necessary, to ensure that it can hold at least the number of elements specified by the minimum capacity argument
             System.out.println(l.isEmpty()); // to check whether arraylist is empty or not.
+            
+            //l.clone(); // creates new arraylist with sme size,eelements,capacity
+
+            l.remove(2);//for removing element at specific index.
+
+            System.out.println(l);
+
+            l.clear(); //removes all the elements 
+            System.out.println(l);
+
         }  
     
     public static void main(String[]args){
