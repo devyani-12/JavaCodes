@@ -27,7 +27,7 @@ public class collectionframework1{
         l.sort(null); // for sorting the arraylist elements
             System.out.println(l);
 
-            l.ensureCapacity(5); //Increases the capacity of this ArrayList instance, if necessary, to ensure that it can hold at least the number of elements specified by the minimum capacity argument
+            l.ensureCapacity(10); //Increases the capacity of this ArrayList instance, if necessary, to ensure that it can hold at least the number of elements specified by the minimum capacity argument
             System.out.println(l.isEmpty()); // to check whether arraylist is empty or not.
         }  
     
