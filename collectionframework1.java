@@ -6,9 +6,10 @@ public class collectionframework1{
         l.add(1);
         l.add(2);
         l.add(3);
+       
 
         l.add(2,15);//adding element at specific index.
-
+        l.add(4,12);
         
         System.out.println(l);
         System.out.println(l.indexOf(3)); //returns the index of the element inserted
