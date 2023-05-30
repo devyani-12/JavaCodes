@@ -15,9 +15,11 @@ public class collectionframework1{
         System.out.println(l.indexOf(3)); //returns the index of the element inserted
        
 
-       System.out.println( l.get(1)); //to retreive an element
+       System.out.println( l.get(1));//to retreive an element
+            System.out.println( l.get(4));
          l.set(1,5);  //to modify element at specific index
           System.out.println(l);
+       
 
 
           System.out.println(l.contains(10));  //false bcz 10 is not present.
