@@ -19,8 +19,9 @@ public class collectionframework1{
             System.out.println( l.get(4));
          l.set(1,5);  //to modify element at specific index
           System.out.println(l);
-       
-
+         
+        l.set(4,19);
+              System.out.println(l);
 
           System.out.println(l.contains(10));  //false bcz 10 is not present.
              
