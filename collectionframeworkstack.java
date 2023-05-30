@@ -19,6 +19,9 @@ public class collectionframeworkstack {
         System.out.println(s.peek()); // now since hello has been removed in prev line so 
                                         //output should be hi.
           System.out.println(s.size());
+        
+        
+             System.out.println(s.search("abc"));     
           
           System.out.println(s.isEmpty()); //false
             
