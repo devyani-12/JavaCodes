@@ -1,6 +1,7 @@
 
 // 2nd variation of set(LinkedHashset)--->unique elements but ordered collection of elements.
                                //linkedlist+hashtable.
+                                       //less efficient than hashset. 
 import java.util.*;
 public class collectionframeworkLinkedset{
      static void  LinkedHashset(){
