@@ -1,7 +1,7 @@
 //SET----> collection that doesnt have duplicate elements..jaha we need uniqueness we use set.
 /*3 variations in set---> Hashset--->unordered collection of unique elements.*/
                                    //uses hashing internally due to which duplicates are not allowed.
-
+                                         //most efficient among all 3 variations.
 import java.util.*;
 public class collectionframeworkset {
      static void  Hashset(){
