@@ -2,6 +2,9 @@
 /*3 variations in set---> Hashset--->unordered collection of unique elements.*/
                                    //uses hashing internally due to which duplicates are not allowed.
                                          //most efficient among all 3 variations.
+
+
+//time complexity of insertion  retreival is O(1)....
 import java.util.*;
 public class collectionframeworkset {
      static void  Hashset(){
