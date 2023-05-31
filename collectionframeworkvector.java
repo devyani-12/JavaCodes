@@ -16,25 +16,32 @@ public class collectionframeworkvector {
         v.add(3,10);  
         v.add(0,3);
 
-       // v.addAll(0, v1);
+        v1.add(14);
+        v1.add(16);
+        v1.add(18);
+
+
+       v1.addAll(v);   //all the elements of v will be added at the end of v1
 
         System.out.println(v);
-        //System.out.println(v1);
+        System.out.println(v1);
 
         
-       System.out.println(v.get(3)); //why output 6 when i have inserted 10
+       System.out.println(v.get(4)); 
 
        System.out.println(v.remove(3));
 
-       System.out.println(v.iterator()); //whats the use??
+       System.out.println(v.iterator()); //returns the reference of the 1st object its pointing to.
 
 
-  ///EXPLAIN REMOVEALL();
 
-       v.clear();
+   v1.removeAll(v); // v1 me se v k sare elements remove krdie
+
+       
        System.out.println(v);
 
-
+v.clear();
+System.out.println(v);
 
 
 
@@ -48,3 +55,5 @@ public class collectionframeworkvector {
         Vector();
     }
 }
+
+
