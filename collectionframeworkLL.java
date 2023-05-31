@@ -28,7 +28,7 @@ public class collectionframeworkLL {
 
         System.out.println(l.size());
 
-        l.sort(null);
+        Collections.sort(l);   //for sorting elements in the default order    
         System.out.println(l);
 
         
@@ -41,11 +41,7 @@ public class collectionframeworkLL {
         System.out.println(l);
     
         }
-
-
-
-
-    public static void main(String[]args){
+        public static void main(String[]args){
 
         LinkedListExample();
     }
