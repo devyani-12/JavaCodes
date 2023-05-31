@@ -7,8 +7,17 @@
 import java.util.*;
 public class collectionframeworktreeset {
     static void TreeSet(){
- 
+     
+        TreeSet<Integer> t= new TreeSet<>();
+        t.add(23);
+        t.add(33);
+        t.add(1);
+        t.add(56);
+        t.add(10);
 
+        System.out.println(t);  //1 10 23 33 56  elements will be printed in sorted manner.
+        
+        //rest all the methods of set can be used here also.
 
     }
 
